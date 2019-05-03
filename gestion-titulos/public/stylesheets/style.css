@@ -6,3 +6,88 @@ body {
 a {
   color: #00B7FF;
 }
+.imagen-portada img {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.reserva-espacios-enlace{
+  text-align:left;
+}
+.imagen-reservas img {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top:2.5em;
+}
+.imagen-reservas{
+  margin-top:2.5em;
+}
+
+#portal-texto{
+  font-size: 1.75em;
+}
+#banner{
+  background-color: #FF0000;
+  margin-bottom: 10px;
+}
+
+#titulo-banner{
+  text-align: center;
+}
+
+#main-header {
+  background-color:#4664A2;
+}
+#gestionAplicaciones{
+  color:#FFFFFF;
+}
+#title-portal-1 {
+  color:#FFFFFF;
+}
+#title-portal-2{
+  color:#FFFFFF;
+}
+#etsit{
+  color:#FFFFFF;
+}
+#upm{
+  color:#FFFFFF;
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.25em;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: 5em;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  margin-top:20px;
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
